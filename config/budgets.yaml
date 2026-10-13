@@ -1,0 +1,10 @@
+month_cap_usd: 25.0
+per_run_cap_usd: 1.5          # provisional; Task 16 resets it from measured pilot spend
+max_repairs: 2
+models:
+  write: claude-sonnet-5-5    # script writer (Task 6)
+  check: claude-haiku-5-5     # claim check and vision QA (Tasks 6, 11b)
+  author: claude-haiku-5-5    # scene spec author (Task 11a); raise to Sonnet only if pilot first-pass validity < 80%
+prices_usd_per_mtok:
+  claude-sonnet-5-5: {in: 2.0, out: 10.0}
+  claude-haiku-5-5: {in: 0.10, out: 0.50}

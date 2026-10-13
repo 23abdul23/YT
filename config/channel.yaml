@@ -1,0 +1,8 @@
+niche: "trending technical topics explained with physical metaphors"
+language: en
+size_tier: new            # claude-youtube context: <1K subscribers
+goal: growth              # claude-youtube context: Growth | Monetisation
+cadence: {long_per_week: 2, shorts_per_week: 5}
+voice: {engine: kokoro, name: af_heart, wpm: 150}
+risky_keywords: [medical, diagnosis, dosage, lawsuit, legal advice, invest, stock tip, crypto price, election]
+disclose_synthetic: false  # animated TTS explainer; see docs/research/10-policy.md. Re-check before launch.
